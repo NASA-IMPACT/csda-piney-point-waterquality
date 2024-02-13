@@ -2,17 +2,24 @@
 
 ## **Description**
 
+
 ### **Raster mask**
+This code will use the DESIS quality image to remove unwanted pixels such as those containing clouds, shadows, haze, etc. 
 
 ### **Image merge**
+Two or images will be merged together to create a mosaic image. 
 
 ### **Band extraction**
+Hyperspectral imagery contains many bands within a specific spectral range. For example, there may be 15 bands that are within the blue spectrum. Therefore, sometimes it is necessary to extract specific bands.
 
 ### **Band correlation**
+As noted above, hyperspectral imagery may contain many bands within a specific spectral range. Once these are extracted, it may be necessary to determine which band(s) to use. There are many techniques to do this. This code will extract the band having the highest correlation out of all the input bands. 
 
 ### **Spectral indices**
+Spectral indices are calculated based on specific bands. This code will calculate the Normalized Difference Chorophyll Index (NDCI), the Normalized Difference Vegetation Index (NDVI), the Normalized Difference Water Index (NDWI), the Normalized Difference Green/Red Index (NDGRI), the Normalized Difference Red Edge Index (NDRE), and the Normalized DIfference 4.5 Index (ND145).   
 
 ### **Regression model**
+
 
 ### **Example results using water quality monitoring**
 
